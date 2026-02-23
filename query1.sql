@@ -15,5 +15,8 @@ SELECT "id", "name", "year", "rankscore"
 FROM movies WHERE "rankscore" >= 5 AND "rankscore" <= 7 AND "year" >= 2004 AND "year" <= 2006
 ORDER BY "rankscore" DESC LIMIT 10 OFFSET 0;
 
+SELECT COUNT("id")
+FROM movies WHERE "rankscore" >= 5 AND "rankscore" <= 7 AND "year" >= 2004 AND "year" <= 2006;
+
 SELECT COUNT("rankscore")
 FROM movies WHERE "rankscore" = 6;
