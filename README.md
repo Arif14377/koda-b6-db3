@@ -13,3 +13,12 @@
 ![alt text](assets/img/movies-rank2.png)
 
 - Kumpulkan pada repo koda-b6-db3 dengan nama file query1.sql
+
+## UPDATE (QUERY JOIN TABLE)
+- Melakukan join directors dan genres ke table movies, limit keluaran sebanyak 50
+![alt text](assets/img/join-movie-director-genre.png)
+
+- Melakukan join movies dan roles berdasarkan table actors
+
+
+- Update koda-b6-db3, dengan menambahkan file query2.sql
