@@ -37,4 +37,6 @@
 ![alt text](assets/img/year-most-production.png)
 
 - Mendapatkan movies dengan genres yang dibuatkan menjadi 1 column (value dipisahkan dengan comma) dengan menggunakan string_agg
+![alt text](assets/img/string-agg-movies-genres.png)
+
 - Update repo koda-b6-db3, buat file query3.sql

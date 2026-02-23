@@ -19,7 +19,14 @@ ORDER BY total_movies DESC
 LIMIT 1;
 
 -- Mendapatkan tahun tersibuk sepanjang masa
-SELECT string_agg(movies.name, ',') as movies, movies.year, count(year) as total_films FROM movies
+SELECT string_agg(movies.name, ',') as movies, movies.year, count(year) as total_films
+FROM movies
 GROUP BY movies.year
 ORDER BY total_films DESC
 LIMIT 1;
+
+-- Mendapatkan movies dengan genres yang dibuatkan menjadi 1 column (value dipisahkan dengan comma) dengan menggunakan string_agg
+SELECT movies.id as movie_id, movies.name, count(genre) as total_genre, string_agg(movies_genres.genre, ',') as genres FROM movies
+JOIN movies_genres ON movies_genres.movie_id = movies.id
+GROUP BY movies.id
+LIMIT 100;
