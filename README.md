@@ -19,6 +19,6 @@
 ![alt text](assets/img/join-movie-director-genre.png)
 
 - Melakukan join movies dan roles berdasarkan table actors
-
+![alt text](assets/img/join-actors-movies-role.png)
 
 - Update koda-b6-db3, dengan menambahkan file query2.sql
