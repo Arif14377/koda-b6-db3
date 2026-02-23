@@ -28,7 +28,11 @@
 ![alt text](assets/img/count-genres-director.png)
 
 - Mendapatkan actors yang memiliki roles lebih dari 5
+![alt text](assets/img/aggr-role-higher-5.png)
+
 - Mendapatkan directors paling produktif sepanjang masa
+
+
 - Mendapatkan tahun tersibuk sepanjang masa
 - Mendapatkan movies dengan genres yang dibuatkan menjadi 1 column (value dipisahkan dengan comma) dengan menggunakan string_agg
 - Update repo koda-b6-db3, buat file query3.sql
