@@ -34,5 +34,7 @@
 ![alt text](assets/img/the-director-with-the-most-films.png)
 
 - Mendapatkan tahun tersibuk sepanjang masa
+![alt text](assets/img/year-most-production.png)
+
 - Mendapatkan movies dengan genres yang dibuatkan menjadi 1 column (value dipisahkan dengan comma) dengan menggunakan string_agg
 - Update repo koda-b6-db3, buat file query3.sql

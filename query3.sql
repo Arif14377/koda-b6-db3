@@ -17,3 +17,9 @@ JOIN movies on movies.id = movies_directors.movie_id
 GROUP BY directors.id
 ORDER BY total_movies DESC
 LIMIT 1;
+
+-- Mendapatkan tahun tersibuk sepanjang masa
+SELECT string_agg(movies.name, ',') as movies, movies.year, count(year) as total_films FROM movies
+GROUP BY movies.year
+ORDER BY total_films DESC
+LIMIT 1;
