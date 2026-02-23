@@ -9,3 +9,11 @@ JOIN roles ON actors.id = roles.actor_id
 GROUP BY actors.id
 HAVING COUNT(roles.role) > 5
 LIMIT 100;
+
+-- Mendapatkan directors paling produktif sepanjang masa
+SELECT directors.id as director_id, first_name, last_name, count(movies.name) as total_movies, string_agg(movies.name, ',') as movies FROM directors
+JOIN movies_directors ON movies_directors.director_id = directors.id
+JOIN movies on movies.id = movies_directors.movie_id
+GROUP BY directors.id
+ORDER BY total_movies DESC
+LIMIT 1;

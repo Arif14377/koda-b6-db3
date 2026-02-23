@@ -31,7 +31,7 @@
 ![alt text](assets/img/aggr-role-higher-5.png)
 
 - Mendapatkan directors paling produktif sepanjang masa
-
+![alt text](assets/img/the-director-with-the-most-films.png)
 
 - Mendapatkan tahun tersibuk sepanjang masa
 - Mendapatkan movies dengan genres yang dibuatkan menjadi 1 column (value dipisahkan dengan comma) dengan menggunakan string_agg
